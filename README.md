@@ -231,9 +231,3 @@ Unit Testing has been done with the help of React Testing Library, Jest, Jestdom
 - The use of **Context API** and **`useReducer`** has been done in the Form to make sure the Form can have multiple levels and flexibility for any future modifications. While this is not needed in the Meta Capstone project, however to have an advanced service in a production level application, for e.g. A Mobile Phone OTP Validation service (to confirm that this is a valid person booking, considering restaurant tables are limited and we would like to prevent bots), a middleware form with an input phone field, a button and fields to enter a 4-digit OTP can be present. This field can then dispatch an action - `dispatch({ type: "OTPValidation" })`, which can then be processed by the reducer function and the `stage` updated, so the form can proceed to the next stage.
 
 - A `ThemeProvider` that wraps all Pages of the app that will provide the styling when themes are switched from dark to light.
-
----
-
-# Honour Code
-
-This demo project is solely done by me, Jayanta Samaddar. You can contact me on **[GitHub](https://www.github.com/jayantasamaddar)** for interesting projects to work on.
